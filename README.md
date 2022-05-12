@@ -7,8 +7,7 @@ Hi, I'm [Nachop51]👋
 📫 How to reach me:
 
 &ensp;[![Gmail](https://img.shields.io/badge/-Gmail-C71610?style=flat-square&logo=Gmail&logoColor=FFFFFF)](mailto:nachoperalta0@gmail.com)
-
-<br />
+[<img src="https://img.shields.io/badge/linkedin-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=black" />](https://www.linkedin.com/in/ignacio-peralta-576a72226/)
 
 🌱 I'm currently learning:
 
@@ -17,7 +16,7 @@ Hi, I'm [Nachop51]👋
 :bar_chart: GitHub stats
 
 ## Streak Stats
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="oribendet"  />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="Nachop51"  />
 
 ![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF)
 
