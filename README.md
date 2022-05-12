@@ -36,6 +36,7 @@
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 ## :bar_chart: GitHub stats
+ <br />
 <p align="center">
  <img src="https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000"  alt="Nachop51" />
  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nachop51&layout=compact&hide_border=true&theme=darcula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php" alt="Nachop51" />
