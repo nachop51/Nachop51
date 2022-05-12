@@ -3,6 +3,7 @@ I'm Nachop51 👋
 
 ![age](https://img.shields.io/badge/age-19-blue)
 ![visitors](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
+![](https://komarev.com/ghpvc/?username=your-github-Nachop51&style=flat-square)
 
 ### 📫 How to reach me: 
 
