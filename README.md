@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nacho Peralta</h1>
 <h3 align="center">I want to change the world, give me the source code.</h3>
-<h4 align="center">I ❤ Open Source.</h4>
 
 ![Age](https://img.shields.io/badge/age-19-blue)
 ![Profile Views](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
