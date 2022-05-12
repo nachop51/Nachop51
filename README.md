@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Age](https://img.shields.io/badge/age-19-blue?style=for-the-badge)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNachop51%2F&label=Profile%20views&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FNachop51%2F)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNachop51%2F&label=Profile%20views&labelColor=%23d9e3f0&countColor=%23f47373)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FNachop51%2F)
 
 </div>
  
