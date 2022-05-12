@@ -6,10 +6,8 @@ Hi, I'm [Nachop51]👋
 
 <br />
 
-[![Windard's github stats](https://github-readme-stats.vercel.app/api?username=windard&show_icons=true)](https://github.com/windard)
+[![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=windard&show_icons=true)](https://github.com/windard)
 
 ----
 
-Credits: [windard](https://github.com/windard)
-
-Last Edited on: 31/08/2020
+Credits: [Nachop51](https://github.com/Nachop51)
