@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Nacho Peralta</h1>
+<h1 align="center">Hi 👋, I'm Ignacio Peralta</h1>
 <h3 align="center">I want to change the world, give me the source code.</h3>
 
 <div align="center">
