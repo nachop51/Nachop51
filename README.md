@@ -6,7 +6,7 @@ Hi, I'm [Nachop51]👋
 
 <br />
 
-[![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=windard&show_icons=true)](https://github.com/windard)
+[![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true)](https://github.com/Nachop51)
 
 ----
 
