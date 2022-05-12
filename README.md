@@ -42,9 +42,7 @@
 <p align="center">
  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="Nachop51"  />
  <img src="https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF" alt="Nachop51"/>
-
- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nachop51&layout=compact&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF)
-
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nachop51&layout=compact&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF" alt="Nachop51"/>
 </p>
 ------
 Credit: [Nachop51](https://github.com/Nachop51)
