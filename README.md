@@ -2,7 +2,7 @@
 <h3 align="center">I want to change the world, give me the source code.</h3>
 
 ![Age](https://img.shields.io/badge/age-19-blue?style=for-the-badge)
-![Profile Views](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile?style=for-the-badge)
+![Profile Views](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile&style=for-the-badge)
 
 <h3 align="center"> 📫 How to reach me: </h3>
 
