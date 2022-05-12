@@ -1,1 +1,15 @@
-<iframe src="https://giphy.com/embed/VTtANKl0beDFQRLDTh" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thecodingspacerd-code-coding-eatsleepcode-VTtANKl0beDFQRLDTh">via GIPHY</a></p>
+### Hello!
+Hi, I'm [Nachop51]👋
+
+![age](https://img.shields.io/badge/age-19-blue)
+![visitors](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
+
+<br />
+
+[![Windard's github stats](https://github-readme-stats.vercel.app/api?username=windard&show_icons=true)](https://github.com/windard)
+
+----
+
+Credits: [windard](https://github.com/windard)
+
+Last Edited on: 31/08/2020
