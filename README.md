@@ -36,9 +36,7 @@
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 
-### :bar_chart: GitHub stats
-
-## Streak Stats
+## :bar_chart: GitHub stats
 <p align="center">
  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="Nachop51"  />
  <img src="https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF" alt="Nachop51"/>
