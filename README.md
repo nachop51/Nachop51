@@ -6,8 +6,16 @@ Hi, I'm [Nachop51]👋
 
 <br />
 
-[![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true)](https://github.com/Nachop51)
+🌱 I'm currently learning:
 
-----
+&ensp;![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=JavaScript)&ensp;![Vue.js](https://img.shields.io/badge/-Vue.js-34495E?style=flat-square&logo=Vue.js)&ensp;![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=TypeScript)&ensp;![Node.js](https://img.shields.io/badge/-Node.js-303030?style=flat-square&logo=Node.js)&ensp;![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=React)&ensp;![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-34495E?style=flat-square&logo=Nuxt.js)&ensp;![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js)
 
-Credits: [Nachop51](https://github.com/Nachop51)
+:bar_chart: GitHub stats
+
+![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nachop51&layout=compact&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF)
+
+Credit: [Nachop51](https://github.com/Nachop51)
+
+Last Edited on: 12/05/2022
