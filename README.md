@@ -4,6 +4,10 @@ Hi, I'm [Nachop51]👋
 ![age](https://img.shields.io/badge/age-19-blue)
 ![visitors](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
 
+📫 How to reach me:
+
+&ensp;[![Gmail](https://img.shields.io/badge/-Gmail-C71610?style=flat-square&logo=Gmail&logoColor=FFFFFF)](mailto:nachoperalta0@gmail.com)
+
 <br />
 
 🌱 I'm currently learning:
@@ -11,6 +15,9 @@ Hi, I'm [Nachop51]👋
 &ensp;![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=JavaScript)&ensp;![Vue.js](https://img.shields.io/badge/-Vue.js-34495E?style=flat-square&logo=Vue.js)&ensp;![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=TypeScript)&ensp;![Node.js](https://img.shields.io/badge/-Node.js-303030?style=flat-square&logo=Node.js)&ensp;![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=React)&ensp;![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-34495E?style=flat-square&logo=Nuxt.js)&ensp;![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js)
 
 :bar_chart: GitHub stats
+
+## Streak Stats
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="oribendet"  />
 
 ![Nachop51's github stats](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&title_color=19F9D8&icon_color=19F9D8&bg_color=002B36&text_color=FFFFFF)
 
