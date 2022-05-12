@@ -46,6 +46,10 @@
 </p>
 
 ------
+
+![𝚐𝚒𝚝𝚑𝚞𝚋 𝚐𝚛𝚊𝚙𝚑](https://activity-graph.herokuapp.com/graph?username=Nachop51&theme=gruvbox&hide_border=true&area=true)
+
+------
 Credit: [Nachop51](https://github.com/Nachop51)
 
 Last Edited on: 12/05/2022
