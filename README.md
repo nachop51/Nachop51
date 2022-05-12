@@ -5,8 +5,7 @@ Hi, I'm [Nachop51]👋
 ![visitors](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
 
 📫 How to reach me:
-(https:flat-square&logo=Gmail&logoColor=FFFFFF)
-[<img src="//img.shields.io/badge/-Gmail-C71610?style=for-the-badge&logo=linkedin&logoColor=white&color=black" />](mailto:nachoperalta0@gmail.com)
+[<img src="https://img.shields.io/badge/-Gmail-C71610?style=for-the-badge&logo=linkedin&logoColor=white&color=black" />](mailto:nachoperalta0@gmail.com)
 [<img src="https://img.shields.io/badge/linkedin-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=black" />](https://www.linkedin.com/in/ignacio-peralta-576a72226/)
 
 ### Technologies and Tools
