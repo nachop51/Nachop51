@@ -27,7 +27,7 @@ I'm Nachop51 👋
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 
-:bar_chart: GitHub stats
+### :bar_chart: GitHub stats
 
 ## Streak Stats
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=algolia" alt="Nachop51"  />
