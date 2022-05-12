@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Age](https://img.shields.io/badge/age-19-blue?style=for-the-badge)
-![Profile Views](https://visitor-badge.herokuapp.com/badge?page_id=Nachop51.github.profile)
+![Profile Views](https://visitor-badge.herokuapp.com/badge?style=for-the-badge&page_id=Nachop51.github.profile)
 
 </div>
  
