@@ -9,6 +9,7 @@ I'm Nachop51 👋
 &ensp;[<img src="https://img.shields.io/badge/-Gmail-C71610?style=for-the-badge&logo=gmail&logoColor=white&color=black" />](mailto:nachoperalta0@gmail.com)
 &ensp;[<img src="https://img.shields.io/badge/linkedin-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=black" />](https://www.linkedin.com/in/ignacio-peralta-576a72226/)
 &ensp;[<img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" />](https://twitter.com/inach0f)
+![Twitter](https://twitter.com/inach0f)
 
 ### ✔ Technologies and Tools
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
