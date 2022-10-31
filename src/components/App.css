@@ -1,0 +1,10 @@
+:root {
+  --background-color: rgb(35, 39, 46);
+  --text-color: rgb(255, 255, 255);
+}
+
+#root {
+  @apply min-h-screen;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
