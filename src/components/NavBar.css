@@ -1,0 +1,4 @@
+/* remove dots in the list using tailwind */
+.nav-list {
+  @apply list-none;
+}

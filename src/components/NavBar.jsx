@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <ul>
+    <ul className="nav-list">
       <li>
         <span className="font-bold">About me</span>;
       </li>
