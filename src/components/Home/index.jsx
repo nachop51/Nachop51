@@ -1,28 +1,12 @@
 import "./Home.css";
 
-import React from "react";
+import Presentation from "./Presentation";
 
 const Home = () => {
   return (
     <article id="home">
-      <section id="presentation">
-        <h1 className="text-3xl font-light">
-          Hi, my name is <b>Nacho</b>
-          <span className="dot">.</span>
-        </h1>
-        <p>
-          I'm a <strong>full-stack developer</strong> from <b>Uruguay</b>.
-        </p>
-      </section>
-      <section id="presentation">
-        <h1 className="text-3xl font-light">
-          Hi, my name is <b>Nacho</b>
-          <span className="dot">.</span>
-        </h1>
-        <p>
-          I'm a <strong>full-stack developer</strong> from <b>Uruguay</b>.
-        </p>
-      </section>
+      <Presentation />
+      <Presentation />
     </article>
   );
 };
