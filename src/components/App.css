@@ -1,10 +1,16 @@
 @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
 
 :root {
-  --body-bg: #f5ffff;
+  /* Body background color */
+  --body-bg: #7f00e009;
+  /* Background color */
   --bg: #fdfcff;
+  /* Text color */
   --tc: #7f00e0;
+  /* Primary color */
   --pc: #7f00e0;
+  /* Secondary color */
+  --sc: #3262ff;
 }
 
 #root {
