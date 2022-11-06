@@ -1,0 +1,6 @@
+.copyright {
+  @apply text-gray-400 absolute bottom-1.5 text-xs whitespace-nowrap;
+  @apply sm:text-sm;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,3 +1,8 @@
 .nav-list {
   @apply absolute list-none;
 }
+
+.links {
+  @apply font-thin;
+  color: var(--pc);
+}

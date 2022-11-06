@@ -1,12 +1,19 @@
 #presentation {
-  @apply flex flex-col items-center justify-center;
+  @apply flex flex-col-reverse items-center justify-center;
+  @apply lg:flex-row;
   min-width: 100%;
   min-height: calc(100vh - 40px);
 }
 
 .heading-primary {
   color: var(--pc);
-  @apply text-7xl font-thin;
+  @apply text-5xl font-thin;
+  @apply lg:text-7xl;
+}
+
+.heading-primary br {
+  @apply hidden;
+  @apply lg:block;
 }
 
 .heading-primary span {
@@ -15,4 +22,10 @@
 
 .presentation__p {
   @apply text-3xl text-center;
+  color: var(--pc);
+}
+
+.presentation__svg {
+  @apply w-1/2;
+  @apply lg:w-1/3;
 }
