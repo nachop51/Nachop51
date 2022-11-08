@@ -1,7 +1,8 @@
 #presentation {
-  @apply flex flex-col-reverse items-center justify-center relative;
+  @apply flex flex-col-reverse items-center justify-center relative m-0;
   @apply lg:flex-row;
-  min-width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   min-height: calc(100vh - 40px);
 }
 
@@ -21,7 +22,8 @@
 }
 
 .presentation__p {
-  @apply text-3xl text-center;
+  @apply text-2xl mt-8;
+  max-width: 500px;
   color: var(--pc);
 }
 
@@ -31,5 +33,12 @@
 }
 
 .background-deco {
-  @apply absolute -z-10 w-1/2 top-1/3 right-60;
+  background-image: url(../../assets/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply absolute -z-10 w-full;
+  left: 65%;
+  height: 240px;
+  max-width: 840px;
+  transform: translateX(-50%);
 }

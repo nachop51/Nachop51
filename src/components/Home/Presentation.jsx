@@ -1,11 +1,10 @@
 import "./Presentation.css";
 import Nacho from "../../assets/nacho.svg";
-import Background from "../../assets/background.svg";
 
 const Presentation = () => {
   return (
     <section id="presentation">
-      <img className="background-deco" src={Background} alt="Background" />
+      <div className="background-deco"></div>
       <div>
         <h1 className="heading-primary">
           Hi, my <br /> name is <b>Nacho</b>
