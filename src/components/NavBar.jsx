@@ -1,8 +1,11 @@
 import "./NavBar.css";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <header className="header">
       <nav className="nav">
@@ -29,8 +32,10 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <button className="menu-button">-</button>
       </nav>
+      <button className="menu-button" onClick={() => setShowMenu(!showMenu)}>
+        <span className={`${showMenu ? "active" : "menu-icon"}`}></span>
+      </button>
     </header>
   );
 };

@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*,
+*::before,
+*::after {
   @apply p-0 m-0 box-border;
 }
 
