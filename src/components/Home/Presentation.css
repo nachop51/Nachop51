@@ -33,12 +33,12 @@
 }
 
 .background-deco {
-  background-image: url(../../assets/background.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../../assets/background.svg) repeat;
+  background-size: 40%;
+  opacity: 0.25;
   @apply absolute -z-10 w-full;
   left: 65%;
   height: 240px;
-  max-width: 840px;
+  max-width: 700px;
   transform: translateX(-50%);
 }
