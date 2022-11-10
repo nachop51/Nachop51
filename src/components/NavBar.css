@@ -1,8 +1,26 @@
+.nav {
+  @apply py-4 absolute w-full;
+}
+
 .nav-list {
-  @apply absolute list-none;
+  @apply list-none flex flex-row items-center justify-center gap-16;
 }
 
 .links {
-  @apply font-thin;
+  @apply font-extrabold text-xl;
   color: var(--pc);
+}
+
+.menu {
+  @apply relative mx-10;
+}
+
+.menu-button {
+  @apply absolute flex flex-col items-center justify-center w-32 h-full;
+  background-color: var(--pc);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: circle(50% at 50% 0);
 }
