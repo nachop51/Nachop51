@@ -54,7 +54,8 @@
  
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+![Django REST](https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white)
 </div>
  
 <h2 align="center"> :bar_chart: GitHub stats </h2>
@@ -71,4 +72,4 @@
 
 Credit: [Nachop51](https://github.com/Nachop51)
 
-Last Edited on: 05/06/2023
+Last Edited on: 06/02/2023
