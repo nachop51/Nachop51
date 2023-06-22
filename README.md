@@ -51,9 +51,11 @@
 <h3 align="center"> 🌱 I'm currently learning: </h3>
 
 <div align="center">
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+ 
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ![Django REST](https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white)
+
 </div>
  
 <h2 align="center"> :bar_chart: GitHub stats </h2>
