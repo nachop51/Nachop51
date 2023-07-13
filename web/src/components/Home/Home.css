@@ -51,10 +51,7 @@
 .background-deco {
   background: url(../../assets/background.svg) repeat;
   background-size: 40%;
-  opacity: 0.25;
-  @apply absolute -z-10 w-full;
-  left: 65%;
-  height: 240px;
-  max-width: 700px;
+  @apply absolute -z-10 w-full left-1/2 opacity-25 h-60 max-w-[700px];
+  @apply lg:left-3/4;
   transform: translateX(-50%);
 }
