@@ -1,9 +1,8 @@
-<h1 align="center">Hi 👋, I'm Ignacio Peralta</h1>
-<h3 align="center">I want to change the world, give me the source code.</h3>
+<h1 align="center">Hi 👋, I'm Ignacio Peralta 🐷</h1>
+<h3 align="center">((√112589990684262400) >> 24) years old</h3>
 
 <div align="center">
 
-![Age](https://img.shields.io/badge/age-20-blue?style=for-the-badge)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNachop51%2F&label=Profile%20views&labelColor=%23d9e3f0&countColor=%23f47373)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FNachop51%2F)
 
 </div>
@@ -20,7 +19,7 @@
 
 </div>
  
-<h3 align="center"> ✔ Technologies and Tools </h3>
+<h3 align="center"> 🔧 Technologies and Tools </h3>
 
 <div align="center">
  
