@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ignacio Peralta 🐷</h1>
-<h3 align="center">((√112589990684262400) >> 24) years old</h3>
+<h3 align="center">((1 << 4)) + 4 years old.</h3>
 
 <div align="center">
 
