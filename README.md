@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ignacio Peralta 🐷</h1>
+<h1 align="center">Hi 👋, I'm Ignacio Peralta</h1>
 <h3 align="center">(0b11101011 ^ 0xff) years old.</h3>
 
 <div align="center">
@@ -6,7 +6,6 @@
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNachop51%2F&label=Profile%20views&labelColor=%23d9e3f0&countColor=%23f47373)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FNachop51%2F)
 
 </div>
- 
 <h3 align="center"> 📫 How to reach me: </h3>
 
 <div align="center">
@@ -51,8 +50,7 @@
 <div align="center">
  
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![Django REST](https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
 
 </div>
  
@@ -64,6 +62,7 @@
  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nachop51&theme=dracula&hide_border=true&background=FFFFFF00" alt="Nachop51" />
  <br />
  <br />
+ <img src="https://media3.giphy.com/media/UvPOXBnriV9srEPpIS/source.gif" alt="Piggy dance" width=100 height=100 />
 </p>
 
 ------
