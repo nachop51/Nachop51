@@ -68,5 +68,3 @@
 ------
 
 Credit: [Nachop51](https://github.com/Nachop51)
-
-Last Edited on: 06/02/2023
