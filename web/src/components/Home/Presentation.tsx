@@ -1,4 +1,4 @@
-import Nacho from "../../assets/nacho.svg"
+import Nacho from '../../assets/nacho.svg'
 
 const Presentation = () => {
   return (
@@ -10,7 +10,7 @@ const Presentation = () => {
           <span className="dot">.</span>
         </h1>
         <p className="heading-paragraph hide-m">
-          I'm a passionate <strong>Software Engineer</strong> from{" "}
+          I'm a passionate <strong>Software Engineer</strong> from{' '}
           <b>Uruguay</b>.
         </p>
       </div>

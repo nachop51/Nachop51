@@ -1,5 +1,5 @@
-import "./Home.css"
-import Presentation from "./Presentation"
+import './Home.css'
+import Presentation from './Presentation'
 
 const Home = () => {
   return (

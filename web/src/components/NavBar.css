@@ -7,7 +7,7 @@
 }
 
 .links {
-  @apply font-extrabold text-xl cursor-pointer;
+  @apply font-extrabold text-xl;
   color: var(--pc);
 }
 
@@ -38,7 +38,7 @@
 .menu-icon::before,
 .menu-icon::after {
   @apply absolute left-0 w-5 h-1 bg-white;
-  content: "";
+  content: '';
 }
 
 .menu-icon::before {
@@ -68,7 +68,7 @@
 .active::before,
 .active::after {
   @apply absolute left-0 w-5 h-1 bg-white;
-  content: "";
+  content: '';
 }
 
 .active::before {
