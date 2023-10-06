@@ -13,24 +13,29 @@ const links = [
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false)
 
-  const renderedLinks = links.map((link) => {
-    return (
-      <li key={link.name}>
-        <Link to={link.path} className="links">
-          <span>{link.name}</span>
-        </Link>
-      </li>
-    )
-  })
+  const renderedLinks: JSX.Element[] = [] // links.map((link) => {
+  //   return (
+  //     <li key={link.name}>
+  //       <Link to={link.path} className="nav__ul--links">
+  //         <span>{link.name}</span>
+  //       </Link>
+  //     </li>
+  //   )
+  // })
+
+  renderedLinks.splice(
+    2,
+    0,
+    <li key="menu">
+      <button className="nav__menu" onClick={() => setShowMenu(!showMenu)}>
+        <span className={`menu-icon ${showMenu ? 'active' : ''}`}></span>
+      </button>
+    </li>
+  )
 
   return (
     <nav className="nav">
-      <div className="nav-wrapper">
-        <ul className="nav-list">{renderedLinks}</ul>
-      </div>
-      <button className="menu-button" onClick={() => setShowMenu(!showMenu)}>
-        <span className={`${showMenu ? 'active' : 'menu-icon'}`}></span>
-      </button>
+      <ul className="nav__ul">{renderedLinks}</ul>
     </nav>
   )
 }

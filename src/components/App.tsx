@@ -24,20 +24,22 @@ const mediaIcons = [
 ]
 
 function App() {
-  const renderedIcons = mediaIcons.map((icon) => (
-    <li key={icon.name}>
-      <a href={icon.link} target="_blank" rel="noopener noreferrer">
-        {icon.icon}
-      </a>
-    </li>
-  ))
-
   return (
     <>
       <NavBar />
       <Home />
+
+      {/* Media Icons */}
       <div className="media">
-        <ul className="media__ul">{renderedIcons}</ul>
+        <ul className="media__ul">
+          {mediaIcons.map((icon) => (
+            <li key={icon.name}>
+              <a href={icon.link} target="_blank" rel="noopener noreferrer">
+                {icon.icon}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   )
