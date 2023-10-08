@@ -64,7 +64,3 @@
  <br />
  <img src="https://media3.giphy.com/media/UvPOXBnriV9srEPpIS/source.gif" alt="Piggy dance" width=100 height=100 />
 </p>
-
-------
-
-Credit: [Nachop51](https://github.com/Nachop51)
