@@ -1,42 +1,42 @@
 import './NavBar.css'
-
 import { Link } from 'react-router-dom'
+import { BsMailbox } from 'react-icons/bs'
 import { useState } from 'react'
 
-const links = [
-  { name: 'Home', path: '/' },
-  { name: 'About me', path: '/about_me' },
-  { name: 'Work', path: '/work' },
-  { name: 'Contact', path: '/contact' },
-]
-
 const NavBar = () => {
-  const [showMenu, setShowMenu] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
-  const renderedLinks: JSX.Element[] = [] // links.map((link) => {
-  //   return (
-  //     <li key={link.name}>
-  //       <Link to={link.path} className="nav__ul--links">
-  //         <span>{link.name}</span>
-  //       </Link>
-  //     </li>
-  //   )
-  // })
-
-  renderedLinks.splice(
-    2,
-    0,
-    <li key="menu">
-      <button className="nav__menu" onClick={() => setShowMenu(!showMenu)}>
-        <span className={`menu-icon ${showMenu ? 'active' : ''}`}></span>
-      </button>
-    </li>
-  )
+  const handleClick = () => {
+    setIsOpen(true)
+  }
 
   return (
-    <nav className="nav">
-      <ul className="nav__ul">{renderedLinks}</ul>
-    </nav>
+    <>
+      {
+        isOpen &&
+          <dialog open className='m-auto z-50'>
+            <button onClick={() => { setIsOpen(false) }}>Close</button>
+            <div className='flex flex-col gap-2'>
+              <Link to='/'>Home</Link>
+              <Link to='/about'>About</Link>
+              <Link to='/projects'>Projects</Link>
+              <Link to='/contact'>Contact</Link>
+            </div>
+          </dialog>
+      }
+      <div className='navbar'>
+        <div>
+          <Link to='/' className='cursor-pointer'>
+            Icon
+          </Link>
+          |
+          <button onClick={handleClick}>Menu</button>
+        </div>
+        <div className='flex items-center gap-2'>
+          <BsMailbox />Reach me
+        </div>
+      </div>
+    </>
   )
 }
 

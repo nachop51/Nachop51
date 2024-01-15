@@ -1,11 +1,16 @@
+import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './components/App.tsx'
+import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
-import './index.css'
 
 const element = document.getElementById('root')
-const root = ReactDOM.createRoot(element!)
+
+if (element == null) {
+  throw new Error('Could not find element with id "root"')
+}
+
+const root = ReactDOM.createRoot(element)
 
 root.render(
   <React.StrictMode>

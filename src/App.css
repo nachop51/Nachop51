@@ -15,14 +15,13 @@
   --sc-dark: #c81287;
   /* Transition */
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-family: "Euclid Circular A", sans-serif;
 }
 
 #root {
   background-color: var(--body-bg);
   color: var(--pc);
-  font-family: "Euclid Circular A", sans-serif;
   @apply relative;
-  max-height: calc(100vh - 40px);
 }
 
 .hide-m {

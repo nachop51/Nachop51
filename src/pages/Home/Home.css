@@ -1,0 +1,45 @@
+.dot {
+  color: var(--sc);
+}
+
+#presentation {
+  @apply flex flex-col items-center justify-center relative m-0 pb-20;
+  @apply lg:flex-row;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.background-deco {
+  background: url(../../assets/background.svg) repeat;
+  background-size: 40%;
+  @apply absolute -z-10 w-full left-1/2 opacity-25 h-60 max-w-[700px];
+  @apply lg:left-3/4;
+  transform: translateX(-50%);
+}
+
+.heading-primary {
+  color: var(--pc);
+  @apply text-5xl font-thin;
+  @apply lg:text-7xl;
+}
+
+.heading-primary br {
+  @apply hidden;
+  @apply lg:block;
+}
+
+.heading-primary > span {
+  @apply font-bold;
+}
+
+.heading-paragraph {
+  @apply text-2xl mt-8;
+  max-width: 500px;
+  color: var(--pc);
+}
+
+.presentation-svg {
+  @apply w-3/4;
+  @apply sm:w-1/2;
+  @apply lg:w-1/3;
+}

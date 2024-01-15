@@ -10,9 +10,10 @@
 
 html:after,
 html:before {
-  content: '';
-  @apply will-change-transform h-full w-5 fixed top-0;
-  z-index: 21000;
+  content: "";
+  @apply will-change-transform h-full w-2.5 sm:w-5 fixed top-0;
+  z-index: 19000;
+  background: #fff;
 }
 
 html:after {
@@ -22,26 +23,20 @@ html:after {
 body {
   @apply p-2.5 relative;
   @apply sm:p-5;
-  min-height: calc(100vh - 40px);
-  background-color: var(--bg);
 }
 
-@media screen and (max-width: 640px) {
-  body {
-    min-height: calc(100vh - 20px);
-  }
-}
-
-body::before {
-  content: '';
+body::before,
+body::after {
+  content: "";
   @apply fixed top-0 left-0 w-full h-2.5;
   @apply sm:h-5;
+  z-index: 20000;
+  background: #fff;
 }
 
 body::after {
-  content: '';
-  @apply fixed bottom-0 left-0 w-full h-2.5;
-  @apply sm:h-5;
+  top: auto;
+  bottom: 0;
 }
 
 /* Scrollbar and selection */
@@ -68,4 +63,10 @@ body::after {
 ::selection {
   background-color: var(--pc);
   color: #ffffff;
+}
+
+/* Utility classes */
+
+.set-height {
+  @apply max-h-[calc(100vh-20px)] sm:max-h-[calc(100vh-40px)] min-h-[calc(100vh-20px)] sm:min-h-[calc(100vh-40px)];
 }
