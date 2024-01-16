@@ -3,18 +3,34 @@
 }
 
 #presentation {
-  @apply flex flex-col items-center justify-center relative m-0 pb-20;
-  @apply lg:flex-row;
+  @apply flex flex-col items-center relative pt-[10%] pb-20 px-2.5;
+  @apply sm:px-5;
+  @apply md:pt-0 md:justify-center lg:flex-row-reverse;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.presentation-avatar {
+  @apply p-4 relative w-full lg:flex-1;
+}
+
+/* Background deco and SVG */
+
 .background-deco {
-  background: url(../../assets/background.svg) repeat;
-  background-size: 40%;
-  @apply absolute -z-10 w-full left-1/2 opacity-25 h-60 max-w-[700px];
-  @apply lg:left-3/4;
-  transform: translateX(-50%);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23eb22a3' fill-opacity='0.6'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  @apply absolute -z-10 w-full top-1/2 left-1/2 opacity-40 h-4/6 md:max-w-[700px];
+  transform: translate(-50%, -50%);
+}
+
+.drawing {
+  @apply w-1/2 mx-auto min-w-[300px];
+  @apply lg:w-3/4;
+}
+
+/* ------------------------------------ */
+
+.header {
+  @apply lg:flex-1;
 }
 
 .heading-primary {
@@ -36,10 +52,4 @@
   @apply text-2xl mt-8;
   max-width: 500px;
   color: var(--pc);
-}
-
-.presentation-svg {
-  @apply w-3/4;
-  @apply sm:w-1/2;
-  @apply lg:w-1/3;
 }

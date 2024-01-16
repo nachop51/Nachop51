@@ -1,13 +1,13 @@
-import Nacho from '../../assets/nacho.svg'
+import Nachop from '../../components/Nachop'
 
 const Presentation = () => {
   return (
     <section className='set-height' id='presentation'>
-      <div className='background-deco' />
-      <figure className='presentation-svg'>
-        <img src={Nacho} alt='Nacho' />
-      </figure>
-      <header className='heading'>
+      <div className='presentation-avatar'>
+        <div className='background-deco' />
+        <Nachop className='drawing' />
+      </div>
+      <header className='header'>
         <h1 className='heading-primary'>
           Hi, my <br /> name is <b>Nacho</b>
           <span className='dot'>.</span>
