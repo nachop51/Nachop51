@@ -7,17 +7,19 @@ const Presentation = () => {
         <div className='background-deco' />
         <Nachop className='drawing' />
       </div>
-      <header className='header'>
+      <header className='presentation-header'>
         <h1 className='heading-primary'>
-          Hi, my <br /> name is <b>Nacho</b>
+          Hi, my <br className='hidden lg:block' /> name is <b className='font-bold'>Nacho</b>
           <span className='dot'>.</span>
         </h1>
-        <p className='heading-paragraph hide-m'>
+        <p className='heading-paragraph'>
           I'm a <strong>passionate Software Engineer</strong> from{' '}
           <b>Uruguay</b>.
         </p>
       </header>
-
+      <span className='scroll-down'>
+        👇🏼
+      </span>
     </section>
   )
 }
