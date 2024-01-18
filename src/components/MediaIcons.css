@@ -1,6 +1,5 @@
 .media {
-  @apply w-10 fixed bottom-2.5 sm:bottom-5 left-2 sm:left-7 right-auto z-10 text-xl;
-  color: var(--pc);
+  @apply fixed w-10 bottom-2.5 sm:bottom-5 left-2 sm:left-7 right-auto z-10 text-xl text-primary;
 }
 
 .media__ul {
@@ -17,22 +16,19 @@
 }
 
 .media__ul li:hover a {
-  color: var(--pc-light);
+  @apply text-primary;
 }
 
 .media__ul li a {
-  @apply relative no-underline;
-  color: var(--sc-light);
+  @apply relative no-underline text-secondary;
   transition: var(--transition);
 }
 
 .media__ul li:last-of-type {
-  @apply mb-5;
+  @apply mb-4;
 }
 
 .media__ul::after {
   content: "";
-  width: 1px;
-  height: 80px;
-  background-color: var(--sc-light);
+  @apply w-0.5 h-20 bg-secondary;
 }

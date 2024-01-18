@@ -1,8 +1,12 @@
-import './Media.css'
+import './MediaIcons.css'
 import { FiGithub, FiInstagram, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 const mediaIcons = [
-  { name: 'Github', link: 'https://github.com/Nachop51/', icon: <FiGithub /> },
+  {
+    name: 'Github',
+    link: 'https://github.com/Nachop51/',
+    icon: <FiGithub />
+  },
   {
     name: 'Instagram',
     link: 'https://instagram.com/nachop51/',
@@ -22,7 +26,7 @@ const mediaIcons = [
 
 const MediaIcons = () => {
   return (
-    <div className='media'>
+    <nav className='media'>
       <ul className='media__ul'>
         {
           mediaIcons.map(({ name, link, icon }) => (
@@ -34,7 +38,7 @@ const MediaIcons = () => {
           ))
         }
       </ul>
-    </div>
+    </nav>
   )
 }
 
