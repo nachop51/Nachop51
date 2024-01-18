@@ -1,0 +1,72 @@
+.dot {
+  @apply font-bold text-accent;
+}
+
+#presentation {
+  @apply my-0 mx-auto flex flex-col items-center max-w-[1200px] pt-[25%] sm:pt-[15%];
+  @apply lg:pt-0 lg:justify-center;
+}
+
+.presentation-wrapper {
+  @apply w-full flex flex-col items-center lg:flex-row-reverse;
+}
+
+/* Background deco and SVG */
+
+.presentation-avatar {
+  @apply p-4 relative w-full lg:flex-[3];
+}
+
+.background-deco {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23eb22a3' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  @apply absolute w-full top-1/2 left-1/2 opacity-40 h-4/6 md:max-w-[700px];
+  transform: translate(-50%, -50%);
+}
+
+.drawing {
+  @apply relative z-10 w-3/4 mx-auto min-w-[250px] max-w-[350px];
+  @apply lg:w-11/12 lg:max-w-none;
+}
+
+/* ------------------------------------ */
+
+.presentation-header {
+  @apply lg:flex-[3];
+}
+
+.heading-primary {
+  @apply text-5xl font-thin text-center text-balance text-primary;
+  @apply lg:text-6xl lg:text-left;
+}
+
+.heading-paragraph {
+  @apply text-secondary text-lg mt-8 md:text-2xl text-center lg:text-left text-pretty max-w-[500px];
+}
+
+@keyframes up-n-down {
+  0%,
+  40% {
+    transform: none;
+  }
+  4%,
+  32% {
+    transform: translateY(-4px);
+  }
+  16% {
+    transform: translateY(3px);
+  }
+}
+
+.scroll-down {
+  @apply mt-8 relative text-lg text-secondary;
+}
+
+.scroll-down span {
+  @apply mx-0.5 inline-block;
+  animation: up-n-down 4s ease-in-out infinite;
+}
+
+.scroll-down .bar {
+  content: "";
+  @apply block absolute left-1/2 top-[150%] w-0.5 h-[200px] rounded-full bg-secondary -translate-x-1/2 transform;
+}

@@ -2,32 +2,20 @@
 
 :root {
   /* Body background color */
-  --body-bg: #7f00e010;
-  /* Background color */
+  /* --body-bg: #7f00e010;
+  /* Background color
   --bg: #f4f4f4;
-  /* Primary color */
   --pc-light: #c855ff;
   --pc: #b822ff;
   --pc-dark: #680099;
-  /* Secondary color */
   --sc-light: #f270c3;
   --sc: #eb22a3;
-  --sc-dark: #c81287;
+  --sc-dark: #c81287; */
   /* Transition */
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-family: "Euclid Circular A", sans-serif;
 }
 
 #root {
-  background-color: var(--body-bg);
-  color: var(--pc);
-  @apply relative;
-}
-
-.hide-m {
-  @apply hidden lg:block;
-}
-
-.show-m {
-  @apply block lg:hidden;
+  @apply relative bg-base-100 text-primary;
 }
