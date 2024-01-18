@@ -1,4 +1,4 @@
-const Nachop = ({ className }: { className?: string }) => {
+export default function Nachop ({ className }: { className?: string }) {
   return (
     <svg
       className={className} viewBox='0 0 267 283' fill='none' xmlns='http://www.w3.org/2000/svg'
@@ -64,5 +64,3 @@ const Nachop = ({ className }: { className?: string }) => {
     </svg>
   )
 }
-
-export default Nachop

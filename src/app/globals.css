@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,4 +59,21 @@ body::after {
 
 .set-height {
   @apply max-h-[calc(100vh-20px)] sm:max-h-[calc(100vh-40px)] min-h-[calc(100vh-20px)] sm:min-h-[calc(100vh-40px)];
+}
+
+:root {
+  /* Body background color */
+  /* --body-bg: #7f00e010;
+  /* Background color
+  --bg: #f4f4f4;
+  --pc-light: #c855ff;
+  --pc: #b822ff;
+  --pc-dark: #680099;
+  --sc-light: #f270c3;
+  --sc: #eb22a3;
+  --sc-dark: #c81287; */
+  /* Transition */
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-family: "Euclid Circular A", sans-serif;
+  @apply text-primary;
 }

@@ -1,4 +1,0 @@
-.navbar {
-  @apply fixed left-0 w-full px-8 py-2.5 flex justify-between items-center z-[10] text-2xl;
-  @apply sm:px-16 sm:py-12;
-}
