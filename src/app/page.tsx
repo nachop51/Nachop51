@@ -1,5 +1,6 @@
 import Nachop from '@/components/Nachop'
 import './Home.css'
+import { FaArrowDown } from 'react-icons/fa'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (
@@ -10,8 +11,8 @@ const Home = () => {
 
   return (
     <>
-      <main className='home-main'>
-        <section className='set-height' id='presentation'>
+      <main className='px-8 sm:px-16 pb-16'>
+        <section className='set-height presentation'>
           <div className='presentation-wrapper'>
             <div className='presentation-avatar'>
               <div className='background-deco' />
@@ -30,12 +31,38 @@ const Home = () => {
           </div>
           <span className='scroll-down'>
             {scrollDown}
-            <i className='bar' />
+            <FaArrowDown />
           </span>
         </section>
         <section>
-          <h2>What about me?</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit placeat aut voluptates, nesciunt fuga eos expedita esse. Provident incidunt ex at architecto, reprehenderit neque delectus consequatur molestias veritatis? Quaerat, possimus!</p>
+          <header>
+            <h2>Experience</h2>
+          </header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente, aliquid facilis exercitationem eum praesentium. Iusto reiciendis magnam molestias quibusdam, dolorem magni optio cumque consequatur. Sit consectetur beatae unde velit.
+          </p>
+        </section>
+        <section>
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente, aliquid facilis exercitationem eum praesentium. Iusto reiciendis magnam molestias quibusdam, dolorem magni optio cumque consequatur. Sit consectetur beatae unde velit.
+          </p>
+        </section>
+        <section>
+          <header>
+            <h2>Experience</h2>
+          </header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Odit minima rem itaque
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem pariatur, quod accusamus
+            cupiditate ea soluta qui dolorem aliquam non.
+          </p>
         </section>
       </main>
     </>

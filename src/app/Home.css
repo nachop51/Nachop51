@@ -1,13 +1,5 @@
-.home-main {
-  @apply px-8 sm:px-16 pb-16;
-}
-
-.dot {
-  @apply font-bold text-accent;
-}
-
-#presentation {
-  @apply my-0 mx-auto flex flex-col items-center max-w-[1200px] pt-[25%] sm:pt-[15%];
+.presentation {
+  @apply my-0 mx-auto flex flex-col items-center max-w-[1200px] pt-[10%] justify-around;
   @apply lg:pt-0 lg:justify-center;
 }
 
@@ -70,7 +62,6 @@
   animation: up-n-down 4s ease-in-out infinite;
 }
 
-.scroll-down .bar {
-  content: "";
-  @apply block absolute left-1/2 top-[150%] w-0.5 h-[200px] rounded-full bg-secondary -translate-x-1/2 transform;
+.scroll-down svg {
+  @apply mx-auto text-2xl;
 }
