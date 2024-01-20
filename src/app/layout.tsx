@@ -9,6 +9,39 @@ import { BsMailbox } from 'react-icons/bs'
 export const metadata: Metadata = {
   title: 'Ignacio Peralta - Software Engineer',
   description: 'Ignacio Peralta Porfolio',
+  authors: {
+    name: 'Ignacio Peralta',
+    url: 'https://nachop.xyz'
+  },
+  keywords: [
+    'Portfolio',
+    'Ignacio Peralta',
+    'Software Engineer',
+    'Web Developer',
+    'Fullstack Developer',
+    'Frontend',
+    'Backend',
+    'Developer',
+    'React',
+    'Next.js',
+    'Node.js',
+    'TypeScript'
+  ],
+  openGraph: {
+    title: 'Ignacio Peralta - Software Engineer',
+    description: 'Ignacio Peralta Porfolio',
+    url: 'https://nachop.xyz',
+    type: 'website',
+    siteName: 'Ignacio Peralta',
+    images: [
+      {
+        url: 'https://nachop.xyz/static/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Ignacio Peralta - Software Engineer'
+      }
+    ]
+  },
   icons: {
     icon: [
       {
