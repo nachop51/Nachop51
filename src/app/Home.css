@@ -1,5 +1,5 @@
 .presentation {
-  @apply my-0 mx-auto flex flex-col items-center max-w-[1200px] pt-[10%] justify-around;
+  @apply flex flex-col items-center pt-[10%] justify-around;
   @apply lg:pt-0 lg:justify-center;
 }
 
@@ -33,10 +33,6 @@
 .heading-primary {
   @apply text-5xl font-thin text-center text-balance text-primary;
   @apply lg:text-6xl lg:text-left;
-}
-
-.heading-paragraph {
-  @apply text-secondary text-lg mt-8 md:text-2xl text-center lg:text-left text-pretty max-w-[500px];
 }
 
 @keyframes up-n-down {
