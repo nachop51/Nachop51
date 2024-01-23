@@ -28,7 +28,7 @@ const Home = () => {
             <Nachop className='relative z-10 mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' />
           </div>
           <header>
-            <h1 className='text-balance text-center text-5xl font-thin text-primary lg:text-6xl'>
+            <h1 className='text-balance text-center text-5xl font-normal text-primary lg:text-6xl'>
               Hi, my name is <b className='font-bold'>Nacho</b>
               <span className='dot'>.</span>
             </h1>

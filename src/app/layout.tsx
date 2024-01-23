@@ -2,6 +2,9 @@ import './globals.css'
 import MediaIcons from '@/components/Icons/MediaIcons'
 import NavBar from '@/components/NavBar'
 import { type Metadata } from 'next'
+import { Outfit } from 'next/font/google'
+
+const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Ignacio Peralta - Web Developer',
@@ -60,7 +63,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en' className='scroll-smooth !overflow-auto'>
-      <body className='relative'>
+      <body className={`${outfit.className} relative`}>
         <div className='bg-gradient transition-colors' />
         <NavBar />
         {children}
