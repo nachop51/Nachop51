@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ignacio Peralta - Software Engineer',
+  title: 'Ignacio Peralta - Web Developer',
   description: 'Ignacio Peralta Porfolio',
   authors: {
     name: 'Ignacio Peralta',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'TypeScript'
   ],
   openGraph: {
-    title: 'Ignacio Peralta - Software Engineer',
+    title: 'Ignacio Peralta - Web Developer',
     description: 'Ignacio Peralta Porfolio',
     url: 'https://nachop.xyz',
     type: 'website',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         url: 'https://nachop.xyz/static/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Ignacio Peralta - Software Engineer'
+        alt: 'Ignacio Peralta - Web Developer'
       }
     ]
   },
@@ -59,7 +59,7 @@ export default function RootLayout ({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en' data-theme='nachopLight' className='scroll-smooth !overflow-auto'>
+    <html lang='en' className='scroll-smooth !overflow-auto'>
       <body className='relative'>
         <div className='bg-gradient transition-colors' />
         <NavBar />

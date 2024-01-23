@@ -4,13 +4,13 @@ const Experience = () => {
       date: 'Nov 2022 - Present',
       role: 'Software Engineer',
       company: 'Holberton',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente, aliquid facilis exercitationem eum praesentium. Iusto reiciendis magnam molestias quibusdam, dolorem magni optio cumque consequatur. Sit consectetur beatae unde velit.'
+      description: 'I\'m a Junior Software Engineer adept at merging technical expertise with clear communication. As a collaborative team player, I contribute to student progress tracking and integrate cutting-edge technologies. My focus on efficiency involves leveraging software development and automation. With a strong technical foundation and effective communication skills, I\'m geared for impactful contributions to project success and team achievements.'
     },
     {
       date: 'Jun 2022 - Nov 2022',
       role: 'Tutor',
       company: 'Holberton',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente, aliquid facilis exercitationem eum praesentium. Iusto reiciendis magnam molestias quibusdam, dolorem magni optio cumque consequatur. Sit consectetur beatae unde velit.'
+      description: 'At Holberton, I honed technical expertise while developing crucial soft skills. From delivering impactful technical speeches to adapting communication for diverse audiences, my abilities extend to effective teaching, motivating students, and conducting insightful evaluations. These skills uniquely position me to support and foster the growth of aspiring software developers.'
     }
   ]
 

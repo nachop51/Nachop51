@@ -13,7 +13,7 @@ const NavBar = () => {
   const [theme, setTheme] = useState(THEME.LIGHT)
 
   useEffect(() => {
-    const localTheme = (window.localStorage.getItem('data-theme') ?? document.documentElement.getAttribute('data-theme') ?? THEME.LIGHT) as THEME
+    const localTheme = (document.documentElement.getAttribute('data-theme') ?? THEME.LIGHT) as THEME
 
     if (localTheme != null && localTheme !== theme) {
       document.documentElement.setAttribute('data-theme', localTheme)
@@ -26,7 +26,6 @@ const NavBar = () => {
       const newTheme = prevState === THEME.LIGHT ? THEME.DARK : THEME.LIGHT
 
       document.documentElement.setAttribute('data-theme', newTheme)
-      window.localStorage.setItem('data-theme', newTheme)
 
       return newTheme
     })

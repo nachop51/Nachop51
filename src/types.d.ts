@@ -1,4 +1,4 @@
 export enum THEME {
-  LIGHT = 'nachopLight',
-  DARK = 'nachopDark'
+  LIGHT = 'light',
+  DARK = 'dark'
 }

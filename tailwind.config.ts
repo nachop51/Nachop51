@@ -14,7 +14,8 @@ const config: Config = {
   daisyui: {
     themes: [
       {
-        nachopLight: {
+        light: {
+          ...themes.light,
           primary: '#8564c9',
           'primary-content': '#F7F4FB',
           secondary: '#f480cc',
@@ -40,7 +41,7 @@ const config: Config = {
         }
       },
       {
-        nachopDark: {
+        dark: {
           ...themes.dark,
           primary: '#8564c9',
           'primary-content': '#F7F4FB',
