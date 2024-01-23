@@ -4,20 +4,9 @@
 @tailwind utilities;
 
 :root {
-  /* Body background color */
-  /* --body-bg: #7f00e010;
-  /* Background color
-  --bg: #f4f4f4;
-  --pc-light: #c855ff;
-  --pc: #b822ff;
-  --pc-dark: #680099;
-  --sc-light: #f270c3;
-  --sc: #eb22a3;
-  --sc-dark: #c81287; */
-  /* Transition */
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-family: "Euclid Circular A", sans-serif;
-  @apply bg-base-100 text-primary;
+  @apply text-base-content;
 }
 
 *,
@@ -26,7 +15,11 @@
   @apply m-0 box-border p-0;
 }
 
-html::after,
+body {
+  scrollbar-gutter: stable both-edges;
+}
+
+/* html::after,
 html::before {
   content: "";
   @apply fixed top-0 h-full w-2.5 bg-base-300 will-change-transform sm:w-5;
@@ -44,7 +37,7 @@ body::after {
 
 body::after {
   @apply bottom-0 top-auto;
-}
+} */
 
 /* Scrollbar and selection */
 
@@ -57,7 +50,7 @@ body::after {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply rounded-3xl border-4 border-transparent bg-primary shadow-md;
+  @apply border-4 border-transparent bg-primary shadow-md;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -79,5 +72,5 @@ body::after {
 }
 
 .section-header {
-  @apply text-center text-3xl font-bold text-accent;
+  @apply mb-6 flex items-center gap-x-3 text-left text-3xl font-bold text-accent;
 }

@@ -1,10 +1,7 @@
 import './globals.css'
 import MediaIcons from '@/components/Icons/MediaIcons'
-import NavMenu from '@/components/NavMenu'
+import NavBar from '@/components/NavBar'
 import { type Metadata } from 'next'
-import Head from 'next/head'
-import Link from 'next/link'
-import { BsMailbox } from 'react-icons/bs'
 
 export const metadata: Metadata = {
   title: 'Ignacio Peralta - Software Engineer',
@@ -62,29 +59,14 @@ export default function RootLayout ({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
-      <Head>
-        <link rel='shortcut icon' href='/static/favicon.ico' type='image/x-icon' />
-      </Head>
-      <body className='p-2.5 relative sm:p-5'>
-        <div className='fixed left-0 w-full px-8 py-6 flex justify-between items-center z-[10] text-xl sm:text-2xl sm:px-16 sm:py-12'>
-          <div>
-            <Link href='/'>
-              Icon
-            </Link>
-            <span className='mx-3'>
-              |
-            </span>
-            <NavMenu />
-          </div>
-          <div className='flex items-center gap-2'>
-            <BsMailbox /> Reach me
-          </div>
-        </div>
+    <html lang='en' data-theme='nachopLight' className='scroll-smooth !overflow-auto'>
+      <body className='relative'>
+        <div className='bg-gradient transition-colors' />
+        <NavBar />
         {children}
         <MediaIcons />
         <small className='block text-gray-400 relative text-xs whitespace-nowrap sm:text-sm text-center pb-2'>
-          &copy; MMXXIV. Ignacio Peralta. All rights reserved.
+          &copy; MMXXIV. Ignacio Peralta.
         </small>
       </body>
     </html>

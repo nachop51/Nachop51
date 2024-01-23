@@ -1,4 +1,3 @@
-import './MediaIcons.css'
 import { FiGithub, FiInstagram, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 const mediaIcons = [
@@ -26,12 +25,16 @@ const mediaIcons = [
 
 const MediaIcons = () => {
   return (
-    <nav className='media'>
-      <ul className='media__ul'>
+    <nav className='fixed w-10 bottom-0 -left-1 sm:left-3 right-auto z-10 text-xl text-primary'>
+      <ul className='flex flex-col items-center m-0 p-0 list-none after:h-20 after:w-px after:bg-secondary'>
         {
           mediaIcons.map(({ name, link, icon }) => (
-            <li key={name}>
-              <a href={link} target='_blank' rel='noopener noreferrer' title={name}>
+            <li key={name} className='p-2.5 cursor-pointer last-of-type:mb-3 transition-all hover:-translate-y-1 text-secondary hover:text-primary'>
+              <a
+                href={link}
+                className='relative no-underline'
+                target='_blank' rel='noopener noreferrer' title={name}
+              >
                 {icon}
               </a>
             </li>
