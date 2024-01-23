@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Ignacio Peralta',
     images: [
       {
-        url: 'https://nachop.xyz/static/og-image.png',
+        url: 'https://nachop.xyz/ignacio-peralta.webp',
         width: 1200,
         height: 630,
         alt: 'Ignacio Peralta - Web Developer'
