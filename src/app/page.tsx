@@ -1,4 +1,3 @@
-import './Home.css'
 import Experience from '@/components/Experience'
 import Nachop from '@/components/Icons/Nachop'
 import UruguayanFlag from '@/components/Icons/UruguayanFlag'
@@ -6,8 +5,9 @@ import Sectionizer from '@/components/Sectionizer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BiBox, BiLaugh } from 'react-icons/bi'
-import { BsPersonFill } from 'react-icons/bs'
+import { /* BsCode, */ BsPersonFill } from 'react-icons/bs'
 import { FaArrowDown } from 'react-icons/fa'
+// import Projects from '@/components/Projects'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (
@@ -25,7 +25,7 @@ const Home = () => {
         <div className='flex w-full flex-col items-center gap-4'>
           <div className='relative w-full p-4'>
             <div className='background-deco' />
-            <Nachop className='relative z-10 mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' />
+            <Nachop className='relative mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' />
           </div>
           <header>
             <h1 className='text-balance text-center text-5xl font-normal text-primary lg:text-6xl'>
@@ -38,7 +38,7 @@ const Home = () => {
             </p>
           </header>
         </div>
-        <Link href='/#experience' className='relative mt-8 text-lg text-secondary [&>span]:mx-0.5 [&>span]:inline-block'>
+        <Link href='/#experience' className='relative mt-8 text-lg text-secondary [&>span]:mx-0.5 [&>span]:inline-block motion-safe:[&>span]:animate-up-n-down'>
           {scrollDown}
           <FaArrowDown className='mx-auto text-2xl' />
         </Link>
@@ -49,12 +49,7 @@ const Home = () => {
       </Sectionizer>
       {/* <Sectionizer>
         <h2 className='section-header'><BsCode /> Projects</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-          sapiente, aliquid facilis exercitationem eum praesentium. Iusto
-          reiciendis magnam molestias quibusdam, dolorem magni optio cumque
-          consequatur. Sit consectetur beatae unde velit.
-        </p>
+        <Projects />
       </Sectionizer> */}
       <Sectionizer>
         <h2 className='section-header'><BsPersonFill /> About me</h2>

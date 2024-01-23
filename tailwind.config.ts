@@ -8,7 +8,24 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      keyframes: {
+        'up-n-down': {
+          '0%, 40%': {
+            transform: 'none'
+          },
+          '4%, 32%': {
+            transform: 'translateY(-4px)'
+          },
+          '16%': {
+            transform: 'translateY(3px)'
+          }
+        }
+      },
+      animation: {
+        'up-n-down': 'up-n-down 4s ease-in-out infinite'
+      }
+    }
   },
   plugins: [require('daisyui')],
   daisyui: {

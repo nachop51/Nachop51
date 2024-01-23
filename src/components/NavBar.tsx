@@ -17,9 +17,9 @@ const NavBar = () => {
     if (window?.matchMedia('(prefers-color-scheme: light)').matches) {
       localTheme = THEME.LIGHT
     }
+    document.documentElement.setAttribute('data-theme', localTheme)
 
     if (localTheme != null && localTheme !== theme) {
-      document.documentElement.setAttribute('data-theme', localTheme)
       setTheme(localTheme)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
