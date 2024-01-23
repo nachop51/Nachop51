@@ -24,21 +24,21 @@ export const metadata: Metadata = {
     'Node.js',
     'TypeScript'
   ],
-  // openGraph: {
-  //   title: 'Ignacio Peralta - Software Engineer',
-  //   description: 'Ignacio Peralta Porfolio',
-  //   url: 'https://nachop.xyz',
-  //   type: 'website',
-  //   siteName: 'Ignacio Peralta',
-  //   images: [
-  //     {
-  //       url: 'https://nachop.xyz/static/og-image.png',
-  //       width: 1200,
-  //       height: 630,
-  //       alt: 'Ignacio Peralta - Software Engineer'
-  //     }
-  //   ]
-  // },
+  openGraph: {
+    title: 'Ignacio Peralta - Software Engineer',
+    description: 'Ignacio Peralta Porfolio',
+    url: 'https://nachop.xyz',
+    type: 'website',
+    siteName: 'Ignacio Peralta',
+    images: [
+      {
+        url: 'https://nachop.xyz/static/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Ignacio Peralta - Software Engineer'
+      }
+    ]
+  },
   icons: {
     icon: [
       {

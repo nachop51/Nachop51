@@ -59,7 +59,7 @@ const NavBar = () => {
       </dialog>
       <div className={styles.navbar}>
         <div className='flex items-center'>
-          <Link href='/'>
+          <Link href='/' title='Go to home page'>
             <Logo />
           </Link>
           <span className='mx-3'>
@@ -69,14 +69,14 @@ const NavBar = () => {
           </button>
         </div>
         <div className='flex gap-2 items-center'>
-          <button onClick={handleChangeTheme}>
+          <button onClick={handleChangeTheme} aria-label='Button to change the application theme from dark to light or viceversa'>
             {
-              theme === 'nachopLight'
+              theme === THEME.LIGHT
                 ? <FaMoon />
                 : <FaSun />
             }
           </button>
-          <Link href='mailto:nachoperalta0@gmail.com' className='flex '>
+          <Link href='mailto:nachoperalta0@gmail.com' className='flex'>
             Reach me
           </Link>
         </div>
