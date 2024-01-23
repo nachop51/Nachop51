@@ -21,7 +21,7 @@ const Experience = () => {
           return (
             <li key={date} className='mb-10 ms-4'>
               <div
-                className='absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-accent bg-secondary'
+                className='absolute w-[11px] h-3 rounded-full mt-1.5 -start-1.5 border border-accent bg-secondary'
               />
               <header>
                 <time className='text-neutral-content'>{date}</time>

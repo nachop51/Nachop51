@@ -1,12 +1,12 @@
-import Nachop from '@/components/Icons/Nachop'
 import './Home.css'
-import { FaArrowDown } from 'react-icons/fa'
-import Sectionizer from '@/components/Sectionizer'
 import Experience from '@/components/Experience'
+import Nachop from '@/components/Icons/Nachop'
+import UruguayanFlag from '@/components/Icons/UruguayanFlag'
+import Sectionizer from '@/components/Sectionizer'
 import Link from 'next/link'
 import { BiBox, BiLaugh } from 'react-icons/bi'
-import { BsCode, BsPersonFill } from 'react-icons/bs'
-import UruguayanFlag from '@/components/Icons/UruguayanFlag'
+import { BsPersonFill } from 'react-icons/bs'
+import { FaArrowDown } from 'react-icons/fa'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (
