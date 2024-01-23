@@ -10,10 +10,13 @@ import Logo from './Icons/Logo'
 
 const NavBar = () => {
   const ref = useRef<HTMLDialogElement | null>(null)
-  const [theme, setTheme] = useState(THEME.LIGHT)
+  const [theme, setTheme] = useState(THEME.DARK)
 
   useEffect(() => {
-    const localTheme = (document.documentElement.getAttribute('data-theme') ?? THEME.LIGHT) as THEME
+    let localTheme = THEME.DARK
+    if (window?.matchMedia('(prefers-color-scheme: light)').matches) {
+      localTheme = THEME.LIGHT
+    }
 
     if (localTheme != null && localTheme !== theme) {
       document.documentElement.setAttribute('data-theme', localTheme)
@@ -71,8 +74,8 @@ const NavBar = () => {
           <button onClick={handleChangeTheme} aria-label='Button to change the application theme from dark to light or viceversa'>
             {
               theme === THEME.LIGHT
-                ? <FaMoon />
-                : <FaSun />
+                ? <FaSun />
+                : <FaMoon />
             }
           </button>
           <Link href='mailto:nachoperalta0@gmail.com' className='flex'>
