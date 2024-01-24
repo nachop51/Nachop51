@@ -28,9 +28,12 @@ const Home = () => {
             <Nachop className='relative mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' />
           </div>
           <header>
-            <h1 className='text-balance text-center text-5xl font-normal text-primary lg:text-6xl'>
-              Hi, my name is <b className='font-bold'>Nacho</b>
-              <span className='dot'>.</span>
+            <h1 className='text-balance text-center text-5xl font-normal text-primary lg:text-6xl inline-grid w-full'>
+              <span className='pointer-events-none col-start-1 row-start-1 bg-[linear-gradient(90deg,theme(colors.error)_0%,theme(colors.secondary)_9%,theme(colors.secondary)_42%,theme(colors.primary)_47%,theme(colors.accent)_100%)] bg-clip-text blur-xl [transform:translate3d(0,0,0)] [-webkit-text-fill-color:transparent] before:content-[attr(data-text)] [@supports(color:oklch(0_0_0))]:bg-[linear-gradient(90deg,oklch(var(--s))_4%,color-mix(in_oklch,oklch(var(--s)),oklch(var(--er)))_22%,oklch(var(--p))_45%,color-mix(in_oklch,oklch(var(--p)),oklch(var(--a)))_67%,oklch(var(--a))_100.2%)]' aria-hidden='true' data-text='Hi, my name is Nacho' />
+              <span className='[&::selection]:text-base-content relative col-start-1 row-start-1 bg-[linear-gradient(90deg,theme(colors.error)_0%,theme(colors.secondary)_9%,theme(colors.secondary)_42%,theme(colors.primary)_47%,theme(colors.accent)_100%)] bg-clip-text [-webkit-text-fill-color:transparent] [&::selection]:bg-blue-700/20 [@supports(color:oklch(0_0_0))]:bg-[linear-gradient(90deg,oklch(var(--s))_4%,color-mix(in_oklch,oklch(var(--s)),oklch(var(--er)))_22%,oklch(var(--p))_45%,color-mix(in_oklch,oklch(var(--p)),oklch(var(--a)))_67%,oklch(var(--a))_100.2%)]'>
+                Hi, my name is <b className='font-bold'>Nacho</b>
+                <span className='dot'>.</span>
+              </span>
             </h1>
             <p className='mt-8 max-w-full text-pretty text-center text-lg text-secondary md:text-xl'>
               I'm a <strong> Web Developer</strong> from <b>Uruguay</b>. Let's
@@ -57,19 +60,19 @@ const Home = () => {
           <div className='[&>p]:mb-4 [&>p]:text-pretty [&>p>strong]:font-bold [&>p>strong]:text-secondary'>
             <p>
               My name is Nacho, I'm 21 years old and I'm from Uruguay <UruguayanFlag /> .
-              I finished my studies as a Software Developer last year, and <strong>I've been working with web technologies for 3 years now. My main focus is on performance and user experience</strong>. I really hate old looking and slow websites <BiLaugh className='inline size-5' />.
+              I finished my software development studies last year and <strong>I've been working with web technologies for 3 years now. My main focus is on performance and user experience</strong>. I really hate old looking and slow websites <BiLaugh className='inline size-5' />.
             </p>
             <p>
-              While I was studying, <strong>I mainly focused on learning the basics of programming, then I started to learn about web development and I fell in love with it</strong>. I've been working with React for 2 years now, TypeScript, and I'm currently learning Next.js.
+              While I was studying, <strong>I mainly focused on learning the basics of programming, then I started to learn about web development and I fell in love with it</strong>. I'm currently in love with Next.js after 2 years of working with React & TypeScript.
             </p>
             <p>
-              I really enjoy teaching and helping others, so I'm always open to help anyone who needs it. This is why I'm currently working as a Software Engineer at <a href='https://www.holbertonschool.com/' target='_blank' rel='noopener noreferrer'>Holberton School</a>, a school where <strong>I teach everything I know from web development to algorithms and low level programming</strong>.
+              I really enjoy teaching and helping others, so I'm always open to help anyone who needs it. That's why I'm currently working as a software engineer at <a href='https://www.holbertonschool.com/' target='_blank' rel='noopener noreferrer'>Holberton School</a>, a school where <strong>From web development to algorithms and low-level programming, I teach everything I know</strong>.
             </p>
             <p>
-              Also I'm open to learn from others, I find it really interesting to see how other people <strong>solve problems and add new tools to my toolbox 🧰</strong>.
+              I'm also open to learning, I find it really interesting to see how people <strong>solve problems and add new tools to my toolbox </strong>🧰.
             </p>
           </div>
-          <Image src='/ignacio-peralta.webp' alt='Ignacio Peralta' width={275} height={275} className='rounded-full' />
+          <Image src='/ignacio-peralta.webp' alt='Ignacio Peralta' width={275} height={275} className='rounded-full shadow-2xl shadow-[var(--shadow)]' />
         </div>
       </Sectionizer>
     </main>

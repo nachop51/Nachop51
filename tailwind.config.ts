@@ -40,6 +40,7 @@ const config: Config = {
           accent: '#ef4484',
           'accent-content': '#14040c',
           neutral: '#3d4451',
+          '--shadow': '#00000030',
           'neutral-content': '#130b21',
           'base-100': '#f7effd',
           'base-200': '#f9fafb',
@@ -53,7 +54,7 @@ const config: Config = {
             height: '100vh',
             width: '100vw',
             'background-color': '#ffffff',
-            'background-image': 'radial-gradient(ellipse 80% 80% at 50% -20%,rgba(230,220,231),rgb(249,249,249))'
+            'background-image': 'radial-gradient(ellipse 80% 80% at 50% -20%,rgb(248, 239, 253),rgb(249,250,251))'
           }
         }
       },
@@ -72,6 +73,7 @@ const config: Config = {
           'base-200': '#f9fafb',
           'base-300': '#fefdff',
           'base-content': '#fff',
+          '--shadow': '#ffffff15',
           '.bg-gradient': {
             position: 'fixed',
             top: '0',

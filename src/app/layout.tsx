@@ -71,7 +71,7 @@ export default function RootLayout ({
         {children}
         <MediaIcons />
         <small className='block text-gray-400 relative text-xs whitespace-nowrap sm:text-sm text-center pb-2'>
-          &copy; MMXXIV. Ignacio Peralta.
+          MMXXIV - Ignacio Peralta
         </small>
         <SpeedInsights />
         <Analytics />
