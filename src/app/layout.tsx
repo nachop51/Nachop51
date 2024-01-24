@@ -1,6 +1,7 @@
 import './globals.css'
 import MediaIcons from '@/components/Icons/MediaIcons'
 import NavBar from '@/components/NavBar'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { type Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 
@@ -71,6 +72,7 @@ export default function RootLayout ({
         <small className='block text-gray-400 relative text-xs whitespace-nowrap sm:text-sm text-center pb-2'>
           &copy; MMXXIV. Ignacio Peralta.
         </small>
+        <SpeedInsights />
       </body>
     </html>
   )
