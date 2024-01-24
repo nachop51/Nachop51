@@ -2,6 +2,7 @@ import './globals.css'
 import MediaIcons from '@/components/Icons/MediaIcons'
 import NavBar from '@/components/NavBar'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 import { type Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 
@@ -73,6 +74,7 @@ export default function RootLayout ({
           &copy; MMXXIV. Ignacio Peralta.
         </small>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
