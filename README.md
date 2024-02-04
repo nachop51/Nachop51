@@ -17,11 +17,11 @@
 &ensp;[<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Nachop51/)
 
 </div>
- 
+
 <h3 align="center"> 🔧 Technologies and Tools </h3>
 
 <div align="center">
- 
+
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -44,16 +44,16 @@
 
 
 </div>
- 
+
 <h3 align="center"> 🌱 I'm currently learning: </h3>
 
 <div align="center">
- 
+
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
 
 </div>
- 
+
 <h2 align="center"> :bar_chart: GitHub stats </h2>
  <br />
 <p align="center">
@@ -64,4 +64,3 @@
  <br />
  <img src="https://media3.giphy.com/media/UvPOXBnriV9srEPpIS/source.gif" alt="Piggy dance" width=100 height=100 />
 </p>
-
