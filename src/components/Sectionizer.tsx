@@ -7,7 +7,7 @@ const Sectionizer = (
   return (
     <section
       id={id}
-      className={`mx-auto my-0 max-w-[900px]
+      className={`mx-auto my-0 max-w-[900px] scroll-mt-24
     py-4  ${className ?? ''}`}
     >
       {children}

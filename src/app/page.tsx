@@ -5,9 +5,10 @@ import Sectionizer from '@/components/Sectionizer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BiBox, BiLaugh } from 'react-icons/bi'
-import { /* BsCode, */ BsPersonFill } from 'react-icons/bs'
+import { BsCode, BsPersonFill } from 'react-icons/bs'
 import { FaArrowDown } from 'react-icons/fa'
-// import Projects from '@/components/Projects'
+import Projects from '@/components/Projects'
+import { CgToolbox } from 'react-icons/cg'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (
@@ -21,7 +22,7 @@ const Home = () => {
 
   return (
     <main className='px-8 pb-16 sm:px-16'>
-      <Sectionizer className='set-height flex flex-col items-center justify-around pt-[10%] lg:justify-center lg:pt-0'>
+      <Sectionizer id='home' className='set-height flex flex-col items-center justify-around pt-[10%] lg:justify-center lg:pt-0'>
         <div className='flex w-full flex-col items-center gap-4'>
           <div className='relative w-full p-4'>
             <div className='background-deco' />
@@ -46,21 +47,21 @@ const Home = () => {
           <FaArrowDown className='mx-auto text-2xl' />
         </Link>
       </Sectionizer>
-      <Sectionizer id='experience' className='scroll-mt-24'>
+      <Sectionizer id='experience'>
         <h2 className='section-header'><BiBox /> Experience</h2>
         <Experience />
       </Sectionizer>
-      {/* <Sectionizer>
+      <Sectionizer id='projects'>
         <h2 className='section-header'><BsCode /> Projects</h2>
         <Projects />
-      </Sectionizer> */}
-      <Sectionizer>
+      </Sectionizer>
+      <Sectionizer id='about-me'>
         <h2 className='section-header'><BsPersonFill /> About me</h2>
         <div className='flex flex-col md:flex-row justify-center items-center gap-4'>
           <div className='[&>p]:mb-4 [&>p]:text-pretty [&>p>strong]:font-bold [&>p>strong]:text-secondary'>
             <p>
-              My name is Nacho, I'm 21 years old and I'm from Uruguay <UruguayanFlag /> .
-              I finished my software development studies last year and <strong>I've been working with web technologies for 3 years now. My main focus is on performance and user experience</strong>. I really hate old looking and slow websites <BiLaugh className='inline size-5' />.
+              My name is Nacho, I'm 21 years old and I'm from Uruguay <UruguayanFlag />. &nbsp;
+              <strong>I've been working with web technologies for 3 years now. My main focus is on performance and user experience</strong>. I really hate old looking and slow websites <BiLaugh className='inline size-5' />.
             </p>
             <p>
               While I was studying, <strong>I mainly focused on learning the basics of programming, then I started to learn about web development and I fell in love with it</strong>. I'm currently in love with Next.js after 2 years of working with React & TypeScript.
@@ -69,10 +70,10 @@ const Home = () => {
               I really enjoy teaching and helping others, so I'm always open to help anyone who needs it. That's why I'm currently working as a software engineer at <a href='https://www.holbertonschool.com/' target='_blank' rel='noopener noreferrer'>Holberton School</a>, a school where <strong>From web development to algorithms and low-level programming, I teach everything I know</strong>.
             </p>
             <p>
-              I'm also open to learning, I find it really interesting to see how people <strong>solve problems and add new tools to my toolbox </strong>🧰.
+              I'm also open to learning, I find it really interesting to see how people <strong>solve problems and add new tools to my toolbox </strong> <CgToolbox className='inline size-4 ml-1 mr-px' />.
             </p>
           </div>
-          <Image src='/ignacio-peralta.webp' alt='Ignacio Peralta' width={275} height={275} className='rounded-full shadow-2xl shadow-[var(--shadow)]' />
+          <Image src='/images/ignacio-peralta.webp' alt='Ignacio Peralta' width={275} height={275} className='rounded-full shadow-2xl shadow-[var(--shadow)]' />
         </div>
       </Sectionizer>
     </main>

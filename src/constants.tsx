@@ -1,8 +1,9 @@
 import { BiLogoTypescript } from 'react-icons/bi'
 import { FaAws, FaDocker, FaJs, FaNodeJs, FaReact } from 'react-icons/fa'
-import { SiExpress, SiMysql, SiNextdotjs, SiNginx, SiSvelte } from 'react-icons/si'
+import { SiExpress, SiHtml5, SiMysql, SiNextdotjs, SiNginx, SiSvelte, SiTailwindcss } from 'react-icons/si'
+import { VscCode } from 'react-icons/vsc'
 
-export const TECHONOLOGY_CATALOG = {
+export const TECH_TAGS = {
   React: {
     name: 'React',
     icon: <FaReact />,
@@ -54,8 +55,23 @@ export const TECHONOLOGY_CATALOG = {
     color: '#000000'
   },
   Svelte: {
-    name: 'Svelte',
+    name: 'SvelteKit',
     icon: <SiSvelte />,
     color: '#FF3E00'
+  },
+  TailwindCSS: {
+    name: 'TailwindCSS',
+    icon: <SiTailwindcss />,
+    color: '#38B2AC'
+  },
+  VSCode: {
+    name: 'VSCode',
+    icon: <VscCode />,
+    color: '#007ACC'
+  },
+  HTML: {
+    name: 'HTML',
+    icon: <SiHtml5 />,
+    color: '#E34F26'
   }
 } as const
