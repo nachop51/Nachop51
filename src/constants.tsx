@@ -1,27 +1,24 @@
-import { BiLogoTypescript } from 'react-icons/bi'
-import { FaAws, FaDocker, FaJs, FaNodeJs, FaReact } from 'react-icons/fa'
-import { SiExpress, SiHtml5, SiMysql, SiNextdotjs, SiNginx, SiSvelte, SiTailwindcss } from 'react-icons/si'
-import { VscCode } from 'react-icons/vsc'
+import { SiAmazonaws, SiDocker, SiExpress, SiGit, SiGithub, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNginx, SiNodedotjs, SiPostgresql, SiReact, SiSvelte, SiTailwindcss, SiTypescript, SiVercel, SiVisualstudiocode } from 'react-icons/si'
 
 export const TECH_TAGS = {
   React: {
     name: 'React',
-    icon: <FaReact />,
+    icon: <SiReact />,
     color: '#61DAFB'
   },
   TypeScript: {
     name: 'TypeScript',
-    icon: <BiLogoTypescript />,
+    icon: <SiTypescript />,
     color: '#007ACC'
   },
   JavaScript: {
     name: 'JavaScript',
-    icon: <FaJs />,
+    icon: <SiJavascript />,
     color: '#F7DF1E'
   },
   NodeJS: {
     name: 'NodeJS',
-    icon: <FaNodeJs />,
+    icon: <SiNodedotjs />,
     color: '#339933'
   },
   Express: {
@@ -36,7 +33,7 @@ export const TECH_TAGS = {
   },
   Docker: {
     name: 'Docker',
-    icon: <FaDocker />,
+    icon: <SiDocker />,
     color: '#2496ED'
   },
   Nginx: {
@@ -46,7 +43,7 @@ export const TECH_TAGS = {
   },
   AWS: {
     name: 'AWS',
-    icon: <FaAws />,
+    icon: <SiAmazonaws />,
     color: '#232F3E'
   },
   NextJS: {
@@ -64,14 +61,34 @@ export const TECH_TAGS = {
     icon: <SiTailwindcss />,
     color: '#38B2AC'
   },
-  VSCode: {
-    name: 'VSCode',
-    icon: <VscCode />,
-    color: '#007ACC'
-  },
   HTML: {
     name: 'HTML',
     icon: <SiHtml5 />,
     color: '#E34F26'
+  },
+  Postgres: {
+    name: 'Postgres',
+    icon: <SiPostgresql />,
+    color: '#336791'
+  },
+  Git: {
+    name: 'Git',
+    icon: <SiGit />,
+    color: '#F05032'
+  },
+  GitHub: {
+    name: 'GitHub',
+    icon: <SiGithub />,
+    color: '#181717'
+  },
+  VSCode: {
+    name: 'VSCode',
+    icon: <SiVisualstudiocode />,
+    color: '#007ACC'
+  },
+  Vercel: {
+    name: 'Vercel',
+    icon: <SiVercel />,
+    color: '#000000'
   }
 } as const

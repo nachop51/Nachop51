@@ -5,10 +5,11 @@ import Sectionizer from '@/components/Sectionizer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BiBox, BiLaugh } from 'react-icons/bi'
-import { BsCode, BsPersonFill } from 'react-icons/bs'
+import { BsCode, BsCodeSlash, BsPersonFill } from 'react-icons/bs'
 import { FaArrowDown } from 'react-icons/fa'
 import Projects from '@/components/Projects'
 import { CgToolbox } from 'react-icons/cg'
+import Technologies from '@/components/Technologies'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (
@@ -55,7 +56,7 @@ const Home = () => {
         <h2 className='section-header'><BsCode /> Projects</h2>
         <Projects />
       </Sectionizer>
-      <Sectionizer id='about-me'>
+      <Sectionizer id='about-me' className='mb-12'>
         <h2 className='section-header'><BsPersonFill /> About me</h2>
         <div className='flex flex-col md:flex-row justify-center items-center gap-4'>
           <div className='[&>p]:mb-4 [&>p]:text-pretty [&>p>strong]:font-bold [&>p>strong]:text-secondary'>
@@ -75,6 +76,16 @@ const Home = () => {
           </div>
           <Image src='/images/ignacio-peralta.webp' alt='Ignacio Peralta' width={275} height={275} className='rounded-full shadow-2xl shadow-[var(--shadow)]' />
         </div>
+      </Sectionizer>
+      <Sectionizer id='technologies'>
+        <h2 className='section-header'>
+          <BsCodeSlash />
+          Technologies
+        </h2>
+        <p>
+          All over the years I've been working with a lot of technologies, here are the ones I feel more comfortable with:
+        </p>
+        <Technologies />
       </Sectionizer>
     </main>
   )

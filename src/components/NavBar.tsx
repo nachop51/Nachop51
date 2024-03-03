@@ -11,6 +11,7 @@ const links = [
   { href: '/#experience', label: 'Experience' },
   { href: '/#projects', label: 'Projects' },
   { href: '/#about-me', label: 'About' },
+  { href: '/#technologies', label: 'Technologies' },
   { href: 'mailto:nachoperalta0@gmail.com', label: 'Reach me' }
 ]
 

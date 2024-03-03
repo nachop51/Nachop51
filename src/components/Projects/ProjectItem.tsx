@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 import { TbWorld } from 'react-icons/tb'
 
 const ProjectItem = ({ title, description, tags, images, links, repos }: ProjectsType) => {
-  const renderButtons = (links: string[], repos: string[]) => {
+  const renderButtons = ({ links, repos }: Pick<ProjectsType, 'links' | 'repos'>) => {
     const max = Math.max(links.length, repos.length)
 
     const buttons = []
@@ -28,8 +28,8 @@ const ProjectItem = ({ title, description, tags, images, links, repos }: Project
         <div className='relative w-full py-6'>
           <Image
             src={images}
+            title={title}
             alt={title}
-            layout='responsive'
             width={800}
             height={800}
             className='relative mx-auto w-full rounded-lg'
@@ -43,6 +43,7 @@ const ProjectItem = ({ title, description, tags, images, links, repos }: Project
         <div className='diff-item-1'>
           <Image
             src={images[0]}
+            title={title}
             alt={title}
             width={800}
             height={800}
@@ -81,11 +82,13 @@ const ProjectItem = ({ title, description, tags, images, links, repos }: Project
           }
         </div>
         <div className='relative w-full py-6'>
-          {renderImages({ images })}
+          {
+            renderImages({ images })
+          }
         </div>
         <div className='flex gap-2 mt-4'>
           {
-            renderButtons(links, repos)
+            renderButtons({ links, repos })
           }
         </div>
       </div>
