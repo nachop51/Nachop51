@@ -1,25 +1,26 @@
-import { FiGithub, FiInstagram, FiTwitter, FiLinkedin } from 'react-icons/fi'
+import { GitHubIcon } from '.'
+import { Instagram, Linkedin, Twitter } from './Misc'
 
 const mediaIcons = [
   {
     name: 'Github',
     link: 'https://github.com/Nachop51/',
-    icon: <FiGithub />
+    icon: <GitHubIcon />
   },
   {
     name: 'Instagram',
     link: 'https://instagram.com/nachop51/',
-    icon: <FiInstagram />
+    icon: <Instagram />
   },
   {
     name: 'Twitter',
     link: 'https://twitter.com/inach0f',
-    icon: <FiTwitter />
+    icon: <Twitter />
   },
   {
     name: 'Linkedin',
     link: 'https://linkedin.com/in/ignacio-peralta-dev/',
-    icon: <FiLinkedin />
+    icon: <Linkedin />
   }
 ]
 

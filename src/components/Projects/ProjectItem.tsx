@@ -1,8 +1,8 @@
 import { type ProjectsType } from '@/types'
 import Badge from '../Badge'
 import Image from 'next/image'
-import { FaGithub } from 'react-icons/fa'
-import { TbWorld } from 'react-icons/tb'
+import { GitHubIcon } from '../Icons'
+import { World } from '../Icons/Misc'
 
 const ProjectItem = ({ title, description, tags, images, links, repos }: ProjectsType) => {
   const renderButtons = ({ links, repos }: Pick<ProjectsType, 'links' | 'repos'>) => {
@@ -13,8 +13,8 @@ const ProjectItem = ({ title, description, tags, images, links, repos }: Project
     for (let i = 0; i < max; i++) {
       buttons.push(
         <div key={i} className='flex gap-2'>
-          {links[i] != null && <a href={links[i]} target='_blank' rel='noopener noreferrer' className='btn btn-primary gap-1'><TbWorld className='size-5' />Visit</a>}
-          {repos[i] != null && <a href={repos[i]} target='_blank' rel='noopener noreferrer' className='btn btn-secondary gap-1'><FaGithub className='size-5' />Repo</a>}
+          {links[i] != null && <a href={links[i]} target='_blank' rel='noopener noreferrer' className='btn btn-primary gap-1'><World className='size-5' />Visit</a>}
+          {repos[i] != null && <a href={repos[i]} target='_blank' rel='noopener noreferrer' className='btn btn-secondary gap-1'><GitHubIcon className='size-5' />Repo</a>}
         </div>
       )
     }
@@ -86,7 +86,7 @@ const ProjectItem = ({ title, description, tags, images, links, repos }: Project
             renderImages({ images })
           }
         </div>
-        <div className='flex gap-2 mt-4'>
+        <div className='flex flex-wrap gap-2 mt-4'>
           {
             renderButtons({ links, repos })
           }
