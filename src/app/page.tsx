@@ -9,7 +9,7 @@ import { BsCode, BsCodeSlash, BsPersonFill } from 'react-icons/bs'
 import { FaArrowDown } from 'react-icons/fa'
 import Projects from '@/components/Projects'
 import { CgToolbox } from 'react-icons/cg'
-import Technologies from '@/components/Technologies'
+import Technologies from '@/components/Technologies/'
 
 const Home = () => {
   const scrollDown = 'SCROLL'.split('').map((letter, index) => (

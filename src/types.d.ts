@@ -19,3 +19,9 @@ export interface ProjectsType {
   repos: string[]
   tags: TechnologyCatalogItem[]
 }
+
+export interface TechnologyItemType {
+  title: string
+  doubleSpan?: boolean
+  techs: Array<typeof TECH_TAGS[keyof typeof TECH_TAGS] & { glow?: boolean }>
+}
