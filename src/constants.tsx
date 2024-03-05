@@ -1,11 +1,16 @@
 import { type ProjectsType, type TechnologyItemType } from './types'
-import { AWSIcon, CSSIcon, DockerIcon, ExpressIcon, FigmaIcon, GitHubIcon, GitIcon, HTMLIcon, JavaScriptIcon, MongoIcon, MySQLIcon, NextJSIcon, NginxIcon, NodeJSIcon, PostgresIcon, PythonIcon, ReactIcon, SvelteIcon, TailwindCSSIcon, TypeScriptIcon, VSCodeIcon, VercelIcon } from './components/Icons'
+import { AWSIcon, CSSIcon, DockerIcon, ExpressIcon, FigmaIcon, GitHubIcon, GitIcon, HTMLIcon, JavaScriptIcon, MongoIcon, MySQLIcon, NextJSIcon, NginxIcon, NodeJSIcon, PostgresIcon, PythonIcon, ReactIcon, ReduxIcon, SvelteIcon, TailwindCSSIcon, TypeScriptIcon, VSCodeIcon, VercelIcon } from './components/Icons'
 
 export const TECH_TAGS = {
   React: {
     name: 'React',
     icon: <ReactIcon />,
     color: '#61DAFB'
+  },
+  Redux: {
+    name: 'Redux',
+    icon: <ReduxIcon />,
+    color: '#764ABC'
   },
   TypeScript: {
     name: 'TypeScript',
@@ -197,6 +202,7 @@ export const technologiesSections: TechnologyItemType[] = [
         ...TECH_TAGS.NextJS,
         glow: true
       },
+      TECH_TAGS.Redux,
       TECH_TAGS.Svelte,
       {
         ...TECH_TAGS.TailwindCSS,
@@ -223,12 +229,12 @@ export const technologiesSections: TechnologyItemType[] = [
     title: 'Environment & Tools',
     doubleSpan: true,
     techs: [
-      TECH_TAGS.Docker,
-      TECH_TAGS.Git,
-      TECH_TAGS.GitHub,
-      TECH_TAGS.Vercel,
       TECH_TAGS.VSCode,
-      TECH_TAGS.Figma
+      TECH_TAGS.Git,
+      TECH_TAGS.Docker,
+      TECH_TAGS.GitHub,
+      TECH_TAGS.Figma,
+      TECH_TAGS.Vercel
     ]
   }
 ]

@@ -1,9 +1,9 @@
 .techContainer {
-  @apply relative rounded-lg bg-gray-500/10 px-6 py-8 transition-all hover:shadow-2xl hover:shadow-[var(--shadow)];
+  @apply relative rounded-lg bg-neutral/10 px-6 py-8 transition-all hover:shadow-2xl hover:shadow-[var(--shadow)];
 }
 
 .techContainer::before {
-  @apply absolute left-0 top-0 h-full w-full opacity-50 content-[''];
+  @apply absolute left-0 top-0 h-full w-full rounded-lg opacity-50 content-[''];
   background-image: url(/noisy.webp);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .techItem {
-  @apply relative grid w-fit place-items-center  rounded-2xl border border-transparent transition-colors duration-500;
+  @apply relative grid w-fit place-items-center rounded-2xl border border-transparent transition-colors duration-500;
 }
 
 .techItem:hover {
@@ -45,7 +45,7 @@
 }
 
 .iconWrap::before {
-  @apply border bg-transparent;
+  @apply border bg-base-100/30;
   backdrop-filter: blur(10px);
   border-color: var(--bgColor);
   color: var(--bgColor);
