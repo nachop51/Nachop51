@@ -136,14 +136,16 @@ export const experience = [
 
 export const projects: ProjectsType[] = [
   {
-    title: 'Nachortener',
-    description: 'Simplify your long URLs into short shareable links! Easily customize and track your links for effective online sharing, change the visibility of your link. Say more with less. Try nachortener now!',
-    images: '/images/short_nachop.webp',
+    title: 'Linkly',
+    description: 'Simplify your long URLs into short shareable links! Easily customize and track your links for effective online sharing, change the visibility of your link. Say more with less. Try Linkly now!',
+    images: '/images/linkly.webp',
     repos: ['https://github.com/Nachop51/Nachop51'],
     links: ['https://short.nachop.xyz/'],
     tags: [
       TECH_TAGS.Svelte,
       TECH_TAGS.TypeScript,
+      TECH_TAGS.MongoDB,
+      TECH_TAGS.Vercel,
       TECH_TAGS.TailwindCSS
     ]
   },
