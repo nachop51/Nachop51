@@ -65,7 +65,7 @@ export const TECH_TAGS = {
   TailwindCSS: {
     name: 'TailwindCSS',
     icon: <TailwindCSSIcon />,
-    color: '#38B2AC'
+    color: '#38bdf8'
   },
   HTML: {
     name: 'HTML',

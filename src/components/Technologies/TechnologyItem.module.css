@@ -45,12 +45,12 @@
 }
 
 .iconWrap::before {
-  @apply border bg-base-100/30;
+  @apply border bg-secondary/10 text-base-content;
   backdrop-filter: blur(10px);
   border-color: var(--bgColor);
-  color: var(--bgColor);
 }
 
 .iconWrap svg {
   @apply size-8;
+  filter: drop-shadow(2px 4px 20px rgb(30 30 30 / 0.5));
 }
