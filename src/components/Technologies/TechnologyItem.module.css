@@ -1,5 +1,5 @@
 .techContainer {
-  @apply relative rounded-lg bg-neutral/10 px-6 py-8 transition-all hover:shadow-2xl hover:shadow-[var(--shadow)];
+  @apply relative rounded-lg bg-secondary/10 px-6 py-8 transition-all hover:shadow-2xl hover:shadow-[var(--shadow)];
 }
 
 .techContainer::before {

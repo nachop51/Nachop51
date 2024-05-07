@@ -1,5 +1,4 @@
 import Experience from '@/components/Experience'
-import Nachop from '@/components/Icons/Nachop'
 import UruguayanFlag from '@/components/Icons/UruguayanFlag'
 import Sectionizer from '@/components/Sectionizer'
 import Link from 'next/link'
@@ -24,7 +23,7 @@ const Home = () => {
         <div className='flex w-full flex-col items-center gap-4'>
           <div className='relative w-full p-4'>
             <div className='background-deco' />
-            <Nachop className='relative mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' />
+            <Image className='relative mx-auto w-3/4 min-w-[250px] max-w-[350px] lg:w-11/12 lg:max-w-[400px]' src='/images/nachop-draw.webp' alt='draw of nacho' width={600} height={600} />
           </div>
           <header>
             <h1 className='text-balance text-center text-5xl font-normal text-primary lg:text-6xl inline-grid w-full'>

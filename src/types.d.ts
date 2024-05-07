@@ -1,4 +1,5 @@
 import type React from 'react'
+import { type TECH_TAGS } from './constants'
 
 export interface TechnologyCatalogItem {
   name: string
