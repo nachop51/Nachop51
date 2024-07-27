@@ -55,12 +55,17 @@ How to code xD
 </div>
 
 <h2 align="center"> :bar_chart: GitHub stats </h2>
-  <br />
-  <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&count_private=true&theme=dracula&hide_border=true&hide=issues,contribs&bg_color=00000000"  alt="Nachop51" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nachop51&layout=compact&hide_border=true&theme=dracula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php" alt="Nachop51" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nachop51&theme=dracula&hide_border=true&background=FFFFFF00" alt="Nachop51" />
-  <br />
-  <br />
+
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-stats.vercel.app/api?username=Nachop51&show_icons=true&count_private=true&theme=cobalt&text_color=fafafa&hide_border=true&hide=issues,contribs&bg_color=00000000&rank_icon=github&include_all_commits=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nachop51&hide=c,html,c%2B%2B&layout=compact&theme=cobalt&text_color=fafafa&hide_border=true&bg_color=00000000)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Nachop51&theme=cobalt&text_color=fafafa&hide_border=true&background=00000000)
+
+</div>
+
+<div align="center">
   <img src="https://media3.giphy.com/media/UvPOXBnriV9srEPpIS/source.gif" alt="Piggy dance" width=100 height=100 />
-</p>
+</div>
